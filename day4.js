@@ -5,6 +5,12 @@
   If it is true, console log "I love to code!"
   If it is not, console log "Coding has its challenges."
 */
+let lovesCode = true ; 
+if (lovesCode = true){
+  console.log("I Love to code!" )
+}else {
+  console.log( " Coding has its challenges.")
+}
 
 //CODE HERE
 
@@ -21,6 +27,16 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+if (amysAge > brittanisAge){
+  console.log("Amy is the oldest")
+}else if (brittanisAge == amysAge){
+  console.log("they're the same age")
+}else{
+  (brittanisAge > amysAge)
+  console.log("Brittani is the oldest ")
+}
+  
+
 
 
 ////////// PROBLEM 3 //////////
@@ -30,12 +46,17 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+if (amysBirthYear == brittanisBirthYear){
+  console.log( "They were born in the same year")
+}else {
+  console.log( " Amy and Brittani were not born in the same year")
+}
 
 
 ////////// PROBLEM 4 //////////
 
 let temperature = 55
-let rain = true
+let rain = false 
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -43,6 +64,15 @@ let rain = true
 */
 
 //CODE HERE
+  if(temperature > 80 ){
+    console.log("T-shirt and shorts")
+  }else if (rain = false ){
+    console.log("T-shirt and shorts")
+  }else if ( rain = true && (temperature < 60 ) || rain == true && ( temperature > 80 )){
+    console.log("T-shirt and take an unbrella")
+  }else if (temperature > 60 && rain == true ){
+    console.log(" Jacket and Pants" )
+  }
 
 
 ////////// PROBLEM 5 //////////
@@ -52,6 +82,9 @@ let rain = true
 */
 
 //CODE HERE
+for (let i = 0; i < 10; i ++ ){
+  console.log("hello")
+}
 
 
 ////////// PROBLEM 6 //////////
@@ -61,13 +94,18 @@ let rain = true
 */
 
 //CODE HERE
-
+for (let i = 1 ; i < 11 ; i++ ){
+  console.log(i)
+}
 
 ////////// PROBLEM 7 //////////
 
 /*
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
+for (let g = 10 ; g > 0 ; g--){
+  console.log(g)
+}
 
 //CODE HERE
 
@@ -81,7 +119,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-
+while (score < passingScore){
+    console.log("Your score is not high enough")
+    score ++ 
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -92,6 +133,11 @@ let passingScore = 7
 */
 
 //CODE HERE
+let changeMyMind = true; 
+if(changeMyMind = true ){
+  console.log(changeMyMind = false )
+}else (changeMyMind = false ) 
+  console.log(changeMyMind = true)
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
